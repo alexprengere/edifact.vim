@@ -152,7 +152,7 @@ if version >= 508 || !exists("did_asm_syntax_inits")
   " Uncolored segment is an error, but we have a c
   "HiLink edifactSegment     edifactError
   HiLink edifactTag         Keyword
-  HiLink edifactApostrophe  Operator
+  HiLink edifactApostrophe  Underlined
   HiLink edifactPlusSign    Operator
   HiLink edifactAsterisk    Operator
   HiLink edifactColon       Delimiter
